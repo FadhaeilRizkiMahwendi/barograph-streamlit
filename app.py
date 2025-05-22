@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from datetime import timedelta, datetime
 from io import BytesIO
 
-st.title("Ekstraksi Garis Tekanan Barograph dengan Pra-pemrosesan Citra")
+st.title("Ekstraksi Garis Tekanan Barograph")
 
-uploaded_file = st.file_uploader("Upload gambar barogram", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload gambar barograph", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     # Baca dan decode gambar
